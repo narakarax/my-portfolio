@@ -67,7 +67,7 @@ class Home extends React.Component<Props, ContactState> {
             <div className='grid grid-cols-1 md:grid-cols-2 h-[100vh] md:h-[700px] pt-[70px] relative z-10'>              
                 <div className='flex justify-center items-center p-8 relative'>
                   <div className='relative'>
-                    <p className='text-yellow-500 text-center text-26 md:text-40 font-medium p-4'>I&apos;m <b className='text-32 md:text-60'>Donny Bello</b></p>
+                    <p className='text-yellow-500 text-center text-26 md:text-40 font-medium p-4'>I&apos;m <b className='text-32 md:text-60'>Oleksandr Lukianchuk</b></p>
                     <div className='text-white text-center text-26 md:text-40 font-medium p-4'>5+ Years of Hands-On Experience</div>
                     <div className='md:w-full flex justify-center mt-4'>
                       {/* <button className="btn btn-here bg-white hover:bg-black border-2 border-white font-medium hover:text-white text-black px-6 py-3" type="submit" id="sendMessageButton"
