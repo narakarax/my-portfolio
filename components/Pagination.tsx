@@ -10,7 +10,6 @@ var items = [
     <SlideImgItem imgURL={"/assets/img/portfolio/Image 14.png"} imgLink={"https://museudastoninhas.com.br/o-museu-virtual/"} skillContent={"Web Virtual Reality : VR + WebGL + Next.js + TypeScript + Node.js"} key="4" />,
     <SlideImgItem imgURL={"/assets/img/portfolio/nftmarket place.png"} imgLink={"https://exoworlds.io/"} skillContent={"Blockchain site : Smart contract + Next.js + TypeScript + Node.js"} key="5" />,
     <SlideImgItem imgURL={"/assets/img/portfolio/First.png"} imgLink={"https://droppgroup.com/"} skillContent={"Company site : Rewact + D3.js + Typescript + Node.js +"} key="6" />,
-
   ];                
 function Items({ currentItems }) {
   return (

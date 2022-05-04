@@ -23,7 +23,7 @@ const Footer = ({}) => {
         </Link>
       </div>
       <div className='w-full text-center text-white p-2'>
-        © Copyright 2021 By <span className='text-yellow-500'>Donny Bello</span>
+        © Copyright 2021 By <span className='text-yellow-500'>Oleksandr Lukianchuk</span>
       </div>
     </div>
   )
