@@ -6,7 +6,7 @@ import SlideImgItem from './SlideImgItem';
 var items = [  
     <SlideImgItem imgURL={"/assets/img/portfolio/mnting_nft.png"} imgLink={"https://nftest-sandy.vercel.app/"} skillContent={"React + React Hook + TypeScript + Node.js + TailwindCSS + SCSS + GraphQL"} key="" />,
     <SlideImgItem imgURL={"/assets/img/portfolio/hapeio.png"} imgLink={"https://hape.io/"} skillContent={"React + Solidity + Node.js + Three.js + Express.js + MongoDB"} key="2" />,
-    <SlideImgItem imgURL={"/assets/img/portfolio/Game.png"} imgLink={"http://gamesite-eight.vercel.app"} skillContent={"Three.js + WebGL"} key="3" />,
+    <SlideImgItem imgURL={"/assets/img/portfolio/Game.png"} imgLink={"http://gamesite-eight.vercel.app"} skillContent={"React + tailwind CSS + Figma"} key="3" />,
     <SlideImgItem imgURL={"/assets/img/portfolio/Vue.png"} imgLink={"https://www.hovedkontor.no/"} skillContent={"Vue Project : Vue.js + Tailwind CSS"} key="4" />,
     <SlideImgItem imgURL={"/assets/img/portfolio/nftmarket place.png"} imgLink={"https://exoworlds.io/"} skillContent={"Blockchain site : Smart contract + Next.js + TypeScript + Node.js"} key="5" />,
     <SlideImgItem imgURL={"/assets/img/portfolio/First.png"} imgLink={"https://droppgroup.com/"} skillContent={"Company site : Rewact + D3.js + Typescript + Node.js +"} key="6" />,
