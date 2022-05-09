@@ -88,15 +88,15 @@ class Home extends React.Component<Props, ContactState> {
               {/* ----------here-------  */}
               <div id="here" className="w-full h-[100vh] md:h-[700px] relative">
                 <Header />
-                <div className="grid grid-cols-1 md:grid-cols-2 h-[100vh] md:h-[700px] pt-[70px] relative z-10" style={{background: "black"}}>
-                  <div className="flex justify-center items-center p-8 relative">
-                    <div className="relative">
+                <div className="grid h-[100vh] md:h-[700px] pt-[70px] relative z-10" style={{background: "black"}}>
+                  <div className="flex justify-center items-center p-8 relative" style={{zIndex:"9999"}}>
+                    <div className="relative" style={{marginTop: "25px"}}>
                       <p className="text-yellow-500 text-center text-26 md:text-40 font-medium p-4" id="name">
                         <b className="text-32 md:text-60">
                           Oleksandr Lukianchuk
                         </b>
                       </p>
-                      <div className="text-white text-center text-26 md:text-40 font-medium p-4">
+                      <div className="text-white text-center text-26 md:text-40 font-medium p-4" style={{textShadow: "#111 0 0 5px", fontSize: "50px", background: "black", filter: "blur(1px)", borderRadius: "50px"}}>
                         5+ Years of Hands-On Experience
                       </div>
                       <div className="md:w-full flex justify-center mt-4">
@@ -107,12 +107,12 @@ class Home extends React.Component<Props, ContactState> {
                   </div>
                   <div className="flex justify-center items-start md:items-center relative p-8">
                     <div className="md:w-[300px] md:h-[300px] relative" style={{width: "100%", height: "100%"}}>
+                    </div>
+                  </div>
                       <iframe
                         src="https://sketchfab.com/models/894ad84ceb8b444a91fbc05f20530bcd/embed?autospin=1&autostart=1&annotations_visible=0&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_watermark_link=0&ui_watermark=0&ui_hint=0&ui_ar=0&ui_help=0&ui_settings=0&ui_vr=0&ui_fullscreen=0&ui_annotations=0&ui_theme=dark&dnt=1%22className=%27absolute%20top-0%20left-0%20w-full%20h-full"
                         className="absolute top-0 left-0 w-full h-full"
                       />
-                    </div>
-                  </div>
                 </div>
               </div>
 
