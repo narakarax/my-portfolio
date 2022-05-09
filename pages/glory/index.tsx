@@ -97,7 +97,7 @@ class Home extends React.Component<Props, ContactState> {
                         </b>
                       </p>
                       <div className="text-white text-center text-26 md:text-40 font-medium p-4" style={{textShadow: "#111 0 0 5px", fontSize: "50px", background: "black", filter: "blur(1px)", borderRadius: "50px"}}>
-                        5+ Years of Hands-On Experience
+                        3+ Years of Hands-On Experience
                       </div>
                       <div className="md:w-full flex justify-center mt-4">
                         {/* <button className="btn btn-here bg-white hover:bg-black border-2 border-white font-medium hover:text-white text-black px-6 py-3" type="submit" id="sendMessageButton"
