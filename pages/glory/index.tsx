@@ -184,7 +184,7 @@ class Home extends React.Component<Props, ContactState> {
                   <div className="grid-cols-1 md:col-span-2 items-center">
                     <SkillViewChart />
                   </div>
-                  <div className="grid-cols-1 md:col-span-3">
+                  <div className="grid-cols-1 md:col-span-3" style={{height: "415px", overflow: "auto", marginTop: "50px"}}>
                     <SkillsText />
                   </div>
                   {/* <SkillsView/> */}

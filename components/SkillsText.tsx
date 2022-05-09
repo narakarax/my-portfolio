@@ -7,7 +7,8 @@ export default function SkillsText() {
       <div className="flex mb-1">✅<div className="pl-1">Expertise in HTML, HTML5, CSS, SCSS</div></div>
       <div className="flex mb-1">✅<div className="pl-1">Expertise of JavaScript, TypeScript</div></div>
       <div className="flex mb-1">✅<div className="pl-1">Expertise in jQuery and Ajax</div></div>
-      <div className="flex mb-1">✅<div className="pl-1">Expertise of JavaScript UI Frameworks such as React, Redux, Next.js, Vue.js, Nuxt.js</div></div>
+      <div className="flex mb-1">✅<div className="pl-1">Expertise of JavaScript UI Frameworks such as React, Redux, Next.js, Vue.js, Nuxt.js, React Native</div></div>
+      <div className="flex mb-1">✅<div className="pl-1">Expertise of Blockchain technical such as Solidity, Rust, Web3.js</div></div>
       <div className="flex mb-1">✅<div className="pl-1">Expertise of Tailwind CSS framework</div></div>
       <div className="flex mb-1">✅<div className="pl-1">Expertise of UI libraries such as Material-UI, Ant-Design</div></div>
       <div className="flex mb-1">✅<div className="pl-1">Expertise of Web 3D Design with WebGL, Three.js</div></div>
