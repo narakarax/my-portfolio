@@ -9,7 +9,7 @@ var items = [
   <SlideImgItem imgURL={"/assets/img/portfolio/wedding.png"} imgLink={"https://www.unforgettableproposals.com.au/"} skillContent={"React + Node.js + API"} key="8" />,
   <SlideImgItem imgURL={"/assets/img/portfolio/human.png"} imgLink={"https://www.greenwoodcampbell.com/"} skillContent={".NET + anime.js + Bootstrap + GSAP"} key="2" />,
   <SlideImgItem imgURL={"/assets/img/portfolio/energy.png"} imgLink={"http://www.ciliocio.com/"} skillContent={"Laravel + UNIX + Bootstrap Theme"} key="13" />,
-  <SlideImgItem imgURL={"/assets/img/portfolio/cloth.png"} imgLink={"https://www.thefabricant.studio/"} skillContent={"NFT market form: React + GSAP + Sentry + Styled_Components"} key="14" />,
+  <SlideImgItem imgURL={"/assets/img/portfolio/cloth.png"} imgLink={"https://www.thefabricant.studio/"} skillContent={"NFT market form: React + Three.js + GSAP + Sentry + Styled_Components"} key="14" />,
   <SlideImgItem imgURL={"/assets/img/portfolio/constructor.png"} imgLink={"https://www.fieldfocus.com/"} skillContent={"React + SCSS + Node.js+ Express.js + MongoDB"} key="6" />,
   <SlideImgItem imgURL={"/assets/img/portfolio/Australlia.png"} imgLink={"https://immi.homeaffairs.gov.au/"} skillContent={"Angular + Bootstrap + Express.js + MongoDB"} key="5" />,
   <SlideImgItem imgURL={"/assets/img/portfolio/Angular.png"} imgLink={"https://summerofcode.withgoogle.com/"} skillContent={"Angular + tailwind CSS"} key="3" />,
