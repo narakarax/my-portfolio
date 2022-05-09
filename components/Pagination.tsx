@@ -5,6 +5,7 @@ import SlideImgItem from './SlideImgItem';
 // Example items, to simulate fetching from another resources.
 var items = [  
   <SlideImgItem imgURL={"/assets/img/portfolio/nissan.png"} imgLink={"https://www.nissanusa.com/"} skillContent={"Next.js + tailwind CSS + Node.js + Postgres"} key="1" />,
+  // <SlideImgItem imgURL={"/assets/img/portfolio/nissan.png"} imgLink={"https://www.nissanusa.com/"} skillContent={"Next.js + tailwind CSS + Node.js + Postgres"} key="1" />,
   <SlideImgItem imgURL={"/assets/img/portfolio/wedding.png"} imgLink={"https://www.unforgettableproposals.com.au/"} skillContent={"React + Node.js + API"} key="8" />,
   <SlideImgItem imgURL={"/assets/img/portfolio/human.png"} imgLink={"https://www.greenwoodcampbell.com/"} skillContent={".NET + anime.js + Bootstrap + GSAP"} key="2" />,
   <SlideImgItem imgURL={"/assets/img/portfolio/energy.png"} imgLink={"http://www.ciliocio.com/"} skillContent={"Laravel + UNIX + Bootstrap Theme"} key="13" />,
