@@ -91,8 +91,7 @@ class Home extends React.Component<Props, ContactState> {
                 <div className="grid grid-cols-1 md:grid-cols-2 h-[100vh] md:h-[700px] pt-[70px] relative z-10" style={{background: "black"}}>
                   <div className="flex justify-center items-center p-8 relative">
                     <div className="relative">
-                      <p className="text-yellow-500 text-center text-26 md:text-40 font-medium p-4">
-                        I&apos;m{" "}
+                      <p className="text-yellow-500 text-center text-26 md:text-40 font-medium p-4" id="name">
                         <b className="text-32 md:text-60">
                           Oleksandr Lukianchuk
                         </b>
@@ -156,7 +155,7 @@ class Home extends React.Component<Props, ContactState> {
               >
                 <div className="w-full h-full z-10">
                   <div className="title w-full text-center font-bold text-32 md:text-45 text-white mb-8 md:mt-8">
-                    My Excellent Portfolio
+                    My Latest Project
                   </div>
                   <div
                     id="portfolio-view"
