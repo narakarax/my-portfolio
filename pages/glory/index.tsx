@@ -180,7 +180,7 @@ class Home extends React.Component<Props, ContactState> {
                 <div className="title w-full text-center font-bold text-32 md:text-45 text-gray-700 pb-8 md:mt-8">
                   Skill Service
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-5">
+                <div className="grid grid-cols-1 md:grid-cols-5" style={{marginLeft: "100px"}}>
                   <div className="grid-cols-1 md:col-span-2 items-center">
                     <SkillViewChart />
                   </div>
