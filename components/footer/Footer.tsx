@@ -9,7 +9,7 @@ const Footer = ({}) => {
   return (
     <div className="Footer bg-black border-t border-dashed w-full ">
       <div className='w-full text-center text-white p-2'>
-        © Copyright 2021 By <span className='text-yellow-500'>Oleksandr  Lukianchuk</span>
+        © Copyright 2021 By <span className='text-yellow-500'>David Vladykin</span>
       </div>
     </div>
   )
