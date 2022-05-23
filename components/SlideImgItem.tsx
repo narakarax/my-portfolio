@@ -7,7 +7,7 @@ export default function SlideImgItem({imgURL, imgLink, skillContent}) {
       <Link href={imgLink}>
         <a target="_blank">
           <div className="relative h-full  border-4 hover:shadow-lg" style={{borderColor: "#484444"}}>
-            <div className="relative w-full h-64 md:h-80 hover:cursor-pointer">
+            <div className="relative w-full h-48 md:h-60 hover:cursor-pointer">
               {
                 (imgURL==='my-portfolio')?
                 <iframe src={imgLink} className="w-full h-full shadown-md "/>

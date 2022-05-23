@@ -8,6 +8,29 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+// * {
+//   cursor: none;
+// }
+// .cursor-dot, .cursor-dot-outline {
+//   pointer-events: none;
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   border-radius: 50%;
+//   opacity: 1;
+//   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+// }
+// .cursor-dot {
+//   width: 8px;
+//   height: 8px;
+//   background-color: #dc5656;
+// }
+// .cursor-dot-outline {
+//   width: 40px;
+//   height: 40px;
+//   background-color: rgba(229, 128, 128, 0.5);
+// }
 .main-wraper{
   width: 100%;
   height: 100%;
@@ -129,6 +152,19 @@ html {
   scroll-behavior: smooth;
   overflow: auto;
 }
+.cursor {
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 0.2s ease;
+  transition-property: background, border, transform;
+  transform-origin: 150% 150%;
+  z-index: 999;
+}
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -198,5 +234,36 @@ html {
     transform-origin: left center;
     animation: time .6s infinite linear;
     
+  }
+}
+.wrapper {
+
+}
+.cursor{
+  position: fixed;
+  top: -1rem;
+  left: -1rem;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+  
+  div{
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #ffc400;    
+    background-color: #ffc400;
+    cursor:none;
+    transition: transform .5s ease, opacity .35s ease;
+  }
+  
+  &.is-active{
+    
+    div{
+      background-color: #ffc400;
+      transform: scale(2.5);
+      opacity: 1;
+      cursor:none;      
+    }
   }
 }
