@@ -95,7 +95,7 @@ class Home extends React.Component<Props, ContactState> {
                     <div className="relative" style={{marginTop: "25px"}}>
                       <p className="text-yellow-500 text-center text-26 md:text-40 font-medium p-4" id="name">
                         <b className="text-32 md:text-60">
-                          Zin Zhe
+                          Donny Bello
                         </b>
                       </p>
                       <div className="text-white text-center text-26 md:text-40 font-medium p-4" style={{textShadow: "#111 0 0 5px", fontSize: "3vw", background: "black", filter: "blur(1px)", borderRadius: "50px"}}>
